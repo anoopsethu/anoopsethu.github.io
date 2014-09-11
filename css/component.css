@@ -58,7 +58,7 @@
 	padding: 0.4em;
 	text-align: center;
 	font-size: 2.4em;
-	font-weight: 300;
+	font-weight: 400;
 	opacity: 0.8;
 	background:#c7c7c7;
 	letter-spacing: -2px;
@@ -83,7 +83,7 @@
 	padding: 15px 40px 30px;
 	margin: 0;
 	font-weight: 300;
-	font-size: 1.15em;
+	font-size: 1.0em;
 }
 
 .md-content > div p {
