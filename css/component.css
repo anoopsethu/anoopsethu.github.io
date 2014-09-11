@@ -118,8 +118,9 @@ perspective effects (not including the modals and the overlay).
 
 .md-close{
 	text-align: center;
-	padding:10px;
-	background:#e4e4e4;
+	/* padding:10px;
+	background:#e4e4e4; */
+	color:#444;
 	cursor:pointer;
 	border-radius:4px;
 }

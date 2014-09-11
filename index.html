@@ -1,56 +1,62 @@
 <html>
 <head>
 	<title>Bliss!</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 	<script src="js/modernizr.custom.js"></script>
 </head>
 <body>
 
-<div class="md-modal md-effect-1" id="modal-1">
-	<div class="md-content">
-		<h3>about me</h3>
-		<div>
-			<!-- <img src="img/profile.jpg" align="left"> -->
-			<p style="text-align:justify;">I'm Anoop. Creative web developer and designer. Specialist in ideas. Minimalist in design. I'm a 21 year old engineering student from BITS Pilani. I am experienced in User Interface designing and love designing beautiful and functional user experiences. I always believe, 'Less is more!' </p>
-			<!-- <center><a class="md-close">close</a></center> -->
+	<div class="md-modal md-effect-1" id="modalAbout">
+		<div class="md-content">
+			<h3>about me</h3>
+			<div>
+				<p style="text-align:justify;">I'm Anoop. Creative web developer and designer. Specialist in ideas. Minimalist in design. I'm a 21 year old engineering student from BITS Pilani. I am experienced in User Interface designing and love designing beautiful and functional user experiences.</p>
+				
+				<center><a class="md-close"></a></center>
+			</div>
 		</div>
 	</div>
-</div>
 
-<div class="md-modal md-effect-1" id="modal-2">
-	<div class="md-content">
-		<h3>about me</h3>
-		<div>
-			<!-- <img src="img/profile.jpg" align="left"> -->
-			<p style="text-align:justify;">I'm Anoop. Creative web developer and designer. Specialist in ideas. Minimalist in design. I'm a 21 year old engineering student from BITS Pilani. I am experienced in User Interface designing and love designing beautiful and functional user experiences. I always believe, 'Less is more!' </p>
-			<!-- <center><a class="md-close">close</a></center> -->
+	<div class="md-modal md-effect-1" id="modalPortfolio">
+		<div class="md-content">
+			<h3>portfolio</h3>
+			<div>
+				<p style="text-align:justify;">I'm Anoop. Creative web developer and designer. Specialist in ideas. Minimalist in design. I'm a 21 year old engineering student from BITS Pilani. I am experienced in User Interface designing and love designing beautiful and functional user experiences.</p>
+				
+				<center><a class="md-close"></a></center>
+			</div>
 		</div>
 	</div>
-</div>
 
-<div class="md-modal md-effect-1" id="modal-3">
-	<div class="md-content">
-		<h3>about me</h3>
-		<div>
-			<!-- <img src="img/profile.jpg" align="left"> -->
-			<p style="text-align:justify;">I'm Anoop. Creative web developer and designer. Specialist in ideas. Minimalist in design. I'm a 21 year old engineering student from BITS Pilani. I am experienced in User Interface designing and love designing beautiful and functional user experiences. I always believe, 'Less is more!' </p>
-			<!-- <center><a class="md-close">close</a></center> -->
+	<div class="md-modal md-effect-1" id="modalContact">
+		<div class="md-content">
+			<h3>contact</h3>
+			<div>
+				<p style="text-align:justify;">I'm Anoop. Creative web developer and designer. Specialist in ideas. Minimalist in design. I'm a 21 year old engineering student from BITS Pilani. I am experienced in User Interface designing and love designing beautiful and functional user experiences.</p>
+				
+				<center><a class="md-close"></a></center>
+			</div>
 		</div>
 	</div>
-</div>
 
-<div class="bigText">
+	<div class="bigText">
 	<!-- <img src="Me.png"> -->
 	<h1>Anoop Sethumadhavan</h1>
-	<a class="md-trigger mainLink" data-modal="modal-1">about</a>
-	<a class="md-trigger mainLink" data-modal="modal-2">portfolio</a>
-	<a class="md-trigger mainLink" data-modal="modal-3">contact</a>
+	<a class="md-trigger mainLink" data-modal="modalAbout">about</a>
+	<a class="md-trigger mainLink" data-modal="modalPortfolio">portfolio</a>
+	<a class="md-trigger mainLink" data-modal="modalContact">contact</a>
 </div>
 <div class="md-overlay"></div>
 
+
 <script src="js/classie.js"></script>
 <script src="js/modalEffects.js"></script>
+<script>
+var polyfilter_scriptpath = '/js/';
+</script>
 <script src="js/cssParser.js"></script>
+<script src="js/css-filters-polyfill.js"></script>
 
 </body>
+</html>
