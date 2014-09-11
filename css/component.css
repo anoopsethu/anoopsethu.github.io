@@ -1,28 +1,3 @@
-/* General styles for the modal */
-
-/* 
-Styles for the html/body for special modal where we want 3d effects
-Note that we need a container wrapping all content on the page for the 
-perspective effects (not including the modals and the overlay).
-*/
-.md-perspective,
-.md-perspective body {
-	height: 100%;
-	overflow: hidden;
-}
-
-.md-perspective body  {
-	background: #222;
-	-webkit-perspective: 600px;
-	-moz-perspective: 600px;
-	perspective: 600px;
-}
-
-.container {
-	background: #e74c3c;
-	min-height: 100%;
-}
-
 .md-modal {
 	position: fixed;
 	top: 50%;
@@ -68,7 +43,6 @@ perspective effects (not including the modals and the overlay).
 
 /* Content styles */
 .md-content {
-	font-family: 'Helvetica','Arial';
 	color: #999;
 	background: #fff;
 	position: relative;
@@ -87,14 +61,24 @@ perspective effects (not including the modals and the overlay).
 	font-weight: 300;
 	opacity: 0.8;
 	background:#c7c7c7;
-	border-radius: 3px 3px 0 0;
+	letter-spacing: -2px;
+	text-shadow: #f0f0f0 1px 1px 0px;
 }
 
 .md-content img{
-	max-width: 30%;
-	height: auto;
 	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	opacity:0.5;
+	cursor: pointer;	
+	transition: all 0.4s ease;
+
 }
+
+.md-content img:hover{
+	opacity: 1.0;
+}
+
 .md-content > div {
 	padding: 15px 40px 30px;
 	margin: 0;
