@@ -65,10 +65,11 @@ body{
 }
 
 .mainLink{
-	color: #c7c7c7;
+	color: #b0b0b0;
 	transition: color 0.5s;
 	cursor: pointer;
 	font-size: 24px;
+	font-weight: 300;
 	letter-spacing: -1px;
 	text-decoration: none;
 	padding-left: 10px;
@@ -76,7 +77,7 @@ body{
 }
 
 .mainLink:hover{
-	color: #838383;
+	color: #444;
 }
 
 .imageHolder{
