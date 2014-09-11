@@ -31,7 +31,8 @@ body{
 	font-size: 24px;
 	letter-spacing: -1px;
 	text-decoration: none;
-	padding:0 0 10 20;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .mainLink:hover{
