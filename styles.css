@@ -2,30 +2,24 @@ body{
 	padding: 0;
 	margin: 0;
 	font-family: 'HelveticaNeue','Helvetica','Arial';
-	background: url('lowPoly.png');
+	background: #f4f4f4;
+	/* background: url('lowPoly.png'); */
 	background-repeat: repeat;
 }
 
 .bigText{
 	position: absolute;
-	top: 40%;
+	top: 38%;
 	width: 100%;
 	color: #838383;
 	text-align: center;
 	font-size: 40px;
 }
 
-
-.bigText img{
-	max-height: 170px;
-	width: auto;
-}
-
 .bigText h1{
 	font-size: 40px;
 	font-weight: bold;
 	margin: 0;
-	padding: 0;
 }
 
 .mainLink{
