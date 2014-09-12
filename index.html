@@ -5,9 +5,15 @@
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<link rel="stylesheet" type="text/css" href="css/styles.css" />
 	<script src="js/modernizr.custom.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+		$(".loader").fadeOut("slow");
+		})
+	</script>
 </head>
 <body>
-
+<div class="loader"></div>
 	<div class="md-modal md-effect-1" id="modalAbout">
 		<div class="md-content">
 			<h3>about me</h3>
