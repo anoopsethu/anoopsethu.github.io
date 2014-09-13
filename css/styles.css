@@ -96,6 +96,37 @@ body{
 	text-align: center;
 }
 
+.socialMedia{
+
+	display: inline-block;
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	margin-bottom: 0px;
+	cursor: pointer;	
+	transition: all 0.2s ease-in-out;
+}
+
+.socialMedia:hover{
+	background-position: 0px -48px;
+}
+
+.fbIcon{
+	background-image: url('../img/fb.png');
+}
+
+.twitterIcon{
+	background-image: url('../img/twitter.png');
+}
+
+.linkedIcon{
+	background-image: url('../img/linkedin.png');
+}
+
+.mailIcon{
+	background-image: url('../img/mail.png');
+}
+
 @media(max-width:480px) {
 	.container h1{
 		font-size: 32px;
